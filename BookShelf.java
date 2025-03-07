@@ -40,7 +40,7 @@ public class BookShelf {
             return "empty";
         } else {
             for(int i=0;i<shelf.size();i++){
-                books += shelf.get(i).title + " ";
+                books += shelf.get(i).title + "   ";
             }
             return books;
         }
